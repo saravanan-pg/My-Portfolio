@@ -41,8 +41,8 @@ const Hero = ({ theme }) => {
           </div>
 
           <h1 className={`text-[56px] md:text-[72px] lg:text-[80px] font-sans font-bold leading-[1.05] tracking-tight ${theme === 'dark' ? 'text-white' : 'text-slate-900'}`}>
-            frontend web <br />
-            developer.
+            Frontend Web <br />
+            <span className="bg-gradient-to-r from-[#6366f1] to-[#3b82f6] bg-clip-text text-transparent"></span>Developer.
           </h1>
 
           <p className={`text-[17px] leading-[1.8] max-w-lg mt-4 ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
@@ -56,7 +56,7 @@ const Hero = ({ theme }) => {
               duration={500}
               className="px-8 py-3.5 rounded-full bg-gradient-to-r from-[#6366f1] to-[#3b82f6] text-white font-medium text-[15px] transition-transform hover:scale-105 cursor-pointer shadow-[0_4px_14px_0_rgba(59,130,246,0.39)] hover:shadow-[0_6px_20px_rgba(59,130,246,0.23)]"
             >
-              contact me
+              Contact 
             </Link>
 
             <a
@@ -68,7 +68,7 @@ const Hero = ({ theme }) => {
                   : 'border-slate-300 text-slate-800 hover:bg-slate-100'
                 }`}
             >
-              my resume
+               Resume
             </a>
           </div>
         </motion.div>
